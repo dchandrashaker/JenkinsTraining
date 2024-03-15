@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo 'Hello world!'
             }
-             stage('Security Test') {
+        stage('1Security Test') {
             steps {
                 echo 'Hello world!'
             }
