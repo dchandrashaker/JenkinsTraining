@@ -1,7 +1,10 @@
 pipeline {
-        node {
+agent {
+    node {
         label 'LinuxNode'
-        }
+
+    }
+}
     stages {
         stage('Build') {
             steps {
